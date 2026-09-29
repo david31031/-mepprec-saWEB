@@ -8,8 +8,8 @@
   /* free project at supabase.com. Until then, everything still works    */
   /* on this device only, via local fallbacks.                           */
   /* ================================================================== */
-  var SUPABASE_URL = 'https://YOUR_PROJECT.supabase.co';
-  var SUPABASE_ANON_KEY = 'YOUR_PUBLIC_ANON_KEY';
+  var SUPABASE_URL = 'https://rxamqaglseyvsxjzsike.supabase.co';
+  var SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ4YW1xYWdsc2V5dnN4anpzaWtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA3MTE2MDEsImV4cCI6MjEwNjI4NzYwMX0.n7FO0I1qv8Xm9n0tszLHXVowIm0-5PZ_Vf8MbQEjBlI';
   var configured = SUPABASE_URL.indexOf('YOUR_PROJECT') === -1;
   var sb = (configured && window.supabase) ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
