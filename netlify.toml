@@ -1,20 +1,6 @@
 [build]
   # Static site: no build step, serve the project root
   publish = "."
-
-# Don't publicly expose the database schema or README
-[[redirects]]
-  from = "/supabase-schema.sql"
-  to = "/404.html"
-  status = 404
-  force = true
-
-[[redirects]]
-  from = "/README.md"
-  to = "/404.html"
-  status = 404
-  force = true
-
 # Security headers
 [[headers]]
   for = "/*"
